@@ -6,22 +6,22 @@ theme: hugo-fresh
 params:
   navbarlogo:
   # Logo (from static/images/logos/___)
-#   image: /logos/logo.svg
+   image: /logos/logo.svg
    link: /
   font:
     name: "Fondamento"
     sizes: [400,600]
   hero:
     # Main hero title
-#    title: Make your life more fragrant …
+    title: Make your life more fragrant …
     # Hero subtitle (optional)
-#    subtitle: A Freelance UI Sound Design
+    subtitle: A Freelance UI Sound Design
     # Button text
     buttontext: Get started
     # Where the main hero button links to
     buttonlink: "#"
     # Hero image (from static/images/___)
-#    image: /artificial-intelligence-sound-turing.jpg
+    image: /wave.png
     # Footer logos (from static/images/logos/clients/___.svg)
     clientlogos:
   #  - systek
@@ -39,8 +39,6 @@ params:
     url: /#project_3
   - title: Prj-4
     url: /#project_4
-  - title: Prj-6
-    url: /#project_6
 
   section1:
     title: Prj_1
@@ -57,9 +55,9 @@ params:
 
   section5: false
 
-  section6: 
-    title: Prj_6
-    subtitle: diferent composing
+#  section6: 
+#    title: Prj_6
+#    subtitle: diferent composing
 
 
   footer:

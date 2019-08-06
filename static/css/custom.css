@@ -1,0 +1,10 @@
+.hero-body {
+	background: url(../images/artificial-intelligence-sound-turing_hq.jpg);
+	background-attachment: fixed;
+/*  	background-position: top center;*/
+  	background-size: contain;    	
+}
+
+.image img {
+    margin-top: -8px;
+}
