@@ -50,9 +50,12 @@
     position: unset;
 }
 
+/*.img {
+	height: 135.57px !important;
+	max-height: 135.57px !important;
+	position: top center;
 
+	position: inherit;
 
-.section-image {
-	width: 368px;
-	height: 135.57px;
-}
+}*/
+
