@@ -2,52 +2,41 @@
 {{- $logo        := index $footer "logo" }}
 {{- $quickLinks  := index $footer "quicklinks" }}
 {{- $socialMedia := index $footer "socialmedia" }}
-{{- $bulmaLogo   := index $footer "bulmalogo" }}
-<footer class="footer footer-dark">
+
+<footer class="footer footer-dark" id="footer">
   <div class="container">
     <div class="columns">
-      <div class="column">
-        <div class="footer-logo">
-          <img src="{{ printf "/images/logos/%s" $logo | relURL }}">
-        </div>
+
+      <div class="column is-5 is-offset-0" style="margin-bottom: 20px;">
+       <h3>Get in touch and let's make something great together.</h3>
+        <i class="fa fa-envelope"></i> <a href="mailto:osolko@icloud.com" style="font-size: larger;">osolko@icloud.com</a>
       </div>
-      {{- range $quickLinks }}
-        <div class="column">
-          <div class="footer-column">
-            <div class="footer-header">
-                <h3>{{ .title }}</h3>
-            </div>
-            <ul class="link-list">
-              {{- range .links }}
-              <li>
-                <a href="{{ .link }}">
-                  {{ .text }}
-                </a>
-              </li>
-              {{- end }}
-            </ul>
-          </div>
+
+      <!-- banners -->
+      <div class="column is-5">
+        <a href="http://luckstock.com/?ref=Savka_Oleg" class="banners"><img class="" src="images/banners/luckstock_260x120_v1.png" alt="luckstock" width="130" height="60" ></a>
+      
+        <a href="http://www.productiontrax.com/?sentby=15966" class="banners"><img class="" src="images/banners/productiontrax1.jpg" alt="productiontrax" width="60" height="60" ></a>
+
+        <a href="http://ru.123rf.com/#solko" class="banners"><img src="http://ru.123rf.com/submit/staticbanners/123rf_60x60.jpg" alt="Stock Photos from 123RF" width="60" height="60" ></a>
+        <div class="nic">
+        <a target="_blank" href="https://nic.ua/uk/signup/turrkmto"><img alt="За підтримки NIC.UA" src="https://nic.ua/assets/i/referral/btn-green-ukr.png" id="nic"></a>
         </div>
-      {{- end }}
-      <div class="column">
+      </div><!-- end banners -->
+
+      <div class="column is-2 is-offset-0">
         <div class="footer-column">
           <div class="footer-header">
-            <h3>Follow Us</h3>
+            <h3>Follow Me</h3>
             <nav class="level is-mobile">
               <div class="level-left">
                 {{- range $socialMedia }}
                 <a class="level-item" href="{{ .link }}">
-                  <span class="icon"><i class="fa fa-{{ .icon }}"></i></span>
+                  <span class="icon"><i class="fa fa-{{ .icon }} fa-lg"></i></span>
                 </a>
                 {{- end }}
               </div>
             </nav>
-
-            {{- if $bulmaLogo }}
-            <a href="https://bulma.io" target="_blank">
-              <img src="{{ "/images/logos/made-with-bulma.png" | relURL }}" alt="Made with Bulma" width="128" height="24">
-            </a>
-            {{- end }}
           </div>
         </div>
       </div>
