@@ -1,17 +1,29 @@
 {{- $section4 := .Site.Params.section4 }}
 {{- $title    := index $section4 "title" }}
 {{- $subtitle := index $section4 "subtitle" }}
-<section class="section is-medium" id="project_4">
+{{- $image    := index $section4 "image" }}
+
+<section class="section section-feature-grey is-medium" id="project_4">
+
   <div class="container">
-    <div class="columns">
-      <div class="column is-centered-tablet-portrait">
-        <h1 class="title section-title">{{ $title }}</h1>
-        <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
-        <div class="divider"></div>
-      </div>
-    </div>
+		
+	<div class="columns" >
+		<div class="column is-5 is-offset-0">
+	    	<h1 class="title section-title">{{ $title }}</h1>
+	    	<h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
+	    	<p class="divider"></p>
+	  	</div>
 
-{{ partial "workshop.html" . }}
+	  	<div class="column is-4 is-offset-3">
+			<figure class="image">
+	  			<img src="{{ printf "/images/%s" $image | relURL }}" alt="image">
+			</figure>		 	
+	  	</div>
+	</div>
 
+    <div class="columns" >
+		{{ partial "workshop.html" . }}
+ 	</div>
+	
   </div>
 </section>

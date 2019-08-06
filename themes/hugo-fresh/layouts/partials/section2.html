@@ -1,17 +1,29 @@
 {{- $section2 := .Site.Params.section2 }}
 {{- $title    := index $section2 "title" }}
 {{- $subtitle := index $section2 "subtitle" }}
-<section class="section is-medium" id="project_2">
-  <div class="container">
-    <div class="columns">
-      <div class="column is-centered-tablet-portrait">
-        <h1 class="title section-title">{{ $title }}</h1>
-        <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
-        <div class="divider"></div>
-      </div>
-    </div>
+{{- $image    := index $section2 "image" }}
 
-{{ partial "shamdo.html" . }}
+<section class="section is-medium" id="project_2">
+
+  <div class="container">
+		
+	<div class="columns" >
+		<div class="column is-5 is-offset-0">
+	    	<h1 class="title section-title">{{ $title }}</h1>
+	    	<h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
+	    	<p class="divider"></p>
+	  	</div>
+
+	  	<div class="column is-4 is-offset-3">
+			<figure class="image">
+	  			<img src="{{ printf "/images/%s" $image | relURL }}" alt="image">
+			</figure>		 	
+	  	</div>
+	</div>
+
+	<div class="columns" >
+		{{ partial "shamdo.html" . }}
+	</div>
 
   </div>
 </section>

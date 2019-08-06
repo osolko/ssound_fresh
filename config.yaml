@@ -16,10 +16,6 @@ params:
     title: Make your life more fragrant …
     # Hero subtitle (optional)
     subtitle: A Freelance UI Sound Design
-    # Button text
-    buttontext: Get started
-    # Where the main hero button links to
-    buttonlink: "#"
     # Hero image (from static/images/___)
     image: /wave.png
     # Footer logos (from static/images/logos/clients/___.svg)
@@ -31,27 +27,35 @@ params:
   #  - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Prj-1
+  - title: ZenZyburi
     url: /#project_1
-  - title: Prj-2
+  - title: Shamdo
     url: /#project_2
-  - title: Prj-3
+  - title: TheSudoku
     url: /#project_3
-  - title: Prj-4
+  - title: Mark's Workshop
     url: /#project_4
 
   section1:
     title: Prj_1
     subtitle: 2d point-&-click adventure quest
+    image: /section_bg/zz.jpg
+  
   section2:
     title: Prj_2
-    subtitle: meditation and relaxation media project  
+    subtitle: meditation and relaxation media project
+    image: /section_bg/sd.jpg
+  
   section3:
     title: Prj_3
     subtitle: casual game project
+    image: /section_bg/sk.jpg
+
   section4:
     title: Prj_4
     subtitle: diferent composing
+    image: /section_bg/mw.jpg
+
 
   section5: false
 
