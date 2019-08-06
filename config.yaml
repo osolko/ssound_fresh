@@ -35,6 +35,8 @@ params:
     url: /#project_3
   - title: Mark's Workshop
     url: /#project_4
+  - title: Contact
+    url: /#footer  
 
   section1:
     title: Prj_1
@@ -77,15 +79,9 @@ params:
       icon: soundcloud
     - link: https://www.youtube.com/channel/UCuCA8ZHskv-oy2QYPAoU0Zg
       icon: youtube
+    # - link: mailto:osolko@icloud.com
+    #   icon: envelope
+
    
     bulmalogo: false
-    quicklinks:
-      column1:
-        title: ""
-
-      column2:
-        title: ""
-
-      column3:
-        title: ""
-       
+   
