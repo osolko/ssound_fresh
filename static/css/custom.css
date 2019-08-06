@@ -45,3 +45,16 @@
 .hero.is-fullheight {
     opacity: 0.9;
 }
+
+.image img {
+	width: 368px;
+	height: 135.57px;
+}
+
+.image{
+    position: unset;
+}
+
+.container {
+    position: unset;
+}
