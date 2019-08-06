@@ -44,12 +44,12 @@ params:
   section2:
     title: Prj_2
     subtitle: meditation and relaxation media project
-    image: /section_bg/sd.jp2
+    image: /section_bg/sd.jpg
   
   section3:
     title: Prj_3
     subtitle: casual game project
-    image: /section_bg/sk.jpg
+    image: 
 
   section4:
     title: Prj_4
