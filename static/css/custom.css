@@ -13,8 +13,15 @@
    .image img {
     margin-top: -8px;
     display:none;
+	}
 }
+
+@media (max-width: 767px) {
+.section-image {
+	display: none;
+	}
 }
+
 
 .landing-caption {
 	-webkit-text-fill-color: #c2f0ff;
