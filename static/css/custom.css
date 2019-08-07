@@ -1,9 +1,9 @@
-/*.hero-body {
+.hero-body {
 	background: url(../images/artificial-intelligence-sound-turing_hq.jpg);
 	background-attachment: fixed;
   	background-size: contain; 
   	overflow-y: scroll ;  	
-}*/
+}
 
 .image img {
     margin-top: 35px;
