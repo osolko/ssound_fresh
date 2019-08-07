@@ -2,11 +2,13 @@
 	background: url(../images/artificial-intelligence-sound-turing_hq.jpg);
 	background-attachment: fixed;
   	background-size: contain; 
-  	overflow-y: scroll ;  	
 }
 @media (max-width: 767px) {
 	.hero-body {
 		background: url(../images/artificial-intelligence-sound-turing_mob.jpg);
+		background-attachment: fixed;
+  		background-size: contain; 
+  		overflow-y: scroll ;  
 	}
 }
 
