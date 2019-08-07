@@ -6116,8 +6116,6 @@ label.panel-block {
       flex-shrink: 1; }
   .hero.is-halfheight {
     min-height: 50vh; }
-  .hero.is-fullheight {
-    min-height: 100vh; }
 
 .hero-video {
   overflow: hidden; }
@@ -6396,11 +6394,12 @@ Hero styles
 ========================================================================== */
 .hero-body {
   padding-top: 6rem;
-  padding-bottom: 6rem; }
+  padding-bottom: 6rem;
+  max-height: 400px; }
   .hero-body .title, .hero-body .subtitle {
     font-family: 'Open Sans', sans-serif; }
   .hero-body .title.is-bold {
-    font-weight: 700; }
+    font-weight: 300; }
   .hero-body .subtitle.is-muted {
     color: #999; }
 
@@ -6931,7 +6930,8 @@ Responsive Styles
 ========================================================================== */
 @media (max-width: 767px) {
   .landing-caption {
-    text-align: center; }
+    text-align: center;
+    height: 2px; }
   .navbar-menu .is-static {
     position: absolute;
     width: 100%; }

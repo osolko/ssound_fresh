@@ -6,7 +6,13 @@
 }
 
 .image img {
-    margin-top: -8px;
+    margin-top: 48px;
+}
+@media (max-width: 767px) {
+
+   .image img {
+    margin-top: 138px;
+}
 }
 
 .landing-caption {
