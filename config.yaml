@@ -1,4 +1,4 @@
-baseURL: https://ssound.netlify.com/
+baseURL: https://www.ssound.cf/
 languageCode: en-us
 title: Ssound
 theme: hugo-fresh
@@ -9,7 +9,7 @@ params:
    image: /logos/logo.svg
    link: /
   font:
-    name: "Fondamento"
+    name: "Open Sans"
     sizes: [400,600]
   hero:
     # Main hero title
