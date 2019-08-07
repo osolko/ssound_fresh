@@ -13,7 +13,7 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Make your life more fragrant …
+  #  title: Make your life more fragrant …
     # Hero subtitle (optional)
     subtitle: A Freelance UI Sound Design
     # Hero image (from static/images/___)
