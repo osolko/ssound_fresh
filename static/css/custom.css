@@ -12,10 +12,12 @@
 	}
 }
 
-
+.landing-caption {
+    margin-top: -300px;
+ } 
 
 .image img {
-    margin-top: 92px;
+    margin-top: 34px;
 }
 @media (max-width: 767px) {
 
@@ -25,7 +27,7 @@
 }
 
 .section-image {
-opacity: 0.6;
+opacity: 0.7;
 }
 @media (max-width: 767px) {
 .section-image {
@@ -40,7 +42,7 @@ opacity: 0.6;
 }
 
 .hero.is-fullheight {
-    opacity: 0.9;
+    opacity: 0.909;
 }
 
 .container {
