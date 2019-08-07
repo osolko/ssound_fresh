@@ -1,7 +1,9 @@
 .hero-body {
 	background: url(../images/artificial-intelligence-sound-turing_hq.jpg);
 	background-attachment: fixed;
-  	background-size: contain; 
+  	/*background-size: contain; */
+  	    background-repeat-y: no-repeat;
+
 }
 @media (max-width: 767px) {
 	.hero-body {
@@ -38,7 +40,7 @@ opacity: 0.7;
 }
 @media (min-width: 768px) {
 	.landing-caption {
-    	margin-top: -300px;
+    	margin-top: 200px;
  	}
  } 
 
