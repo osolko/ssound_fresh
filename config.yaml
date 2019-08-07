@@ -39,22 +39,22 @@ params:
     url: /#footer  
 
   section1:
-    title: Prj_1
+    title: ZenZyburi
     subtitle: 2d point-&-click adventure quest
     image: /section_bg/zz.jpg
   
   section2:
-    title: Prj_2
+    title: Shamdo
     subtitle: meditation and relaxation media project
     image: /section_bg/sd.jpg
   
   section3:
-    title: Prj_3
+    title: TheSudoku
     subtitle: casual game project
     image: /section_bg/sk.jpg
 
   section4:
-    title: Prj_4
+    title: Mark's Workshop
     subtitle: diferent composing
     image: /section_bg/mw.jpg
 
