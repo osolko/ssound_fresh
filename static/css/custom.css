@@ -16,6 +16,9 @@
 	}
 }
 
+.section-image {
+opacity: 0.6;
+}
 @media (max-width: 767px) {
 .section-image {
 	display: none;
