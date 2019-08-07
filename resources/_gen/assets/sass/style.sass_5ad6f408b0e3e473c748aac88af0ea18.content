@@ -6160,7 +6160,7 @@ label.panel-block {
   padding: 3rem 1.5rem; }
   @media screen and (min-width: 1088px) {
     .section.is-medium {
-      padding: 9rem 1.5rem; }
+      padding: 3rem 1.5rem; }
     .section.is-large {
       padding: 18rem 1.5rem; } }
 
@@ -6393,9 +6393,9 @@ img.pushed-image {
 Hero styles
 ========================================================================== */
 .hero-body {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  max-height: 400px; }
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  max-height: 500px; }
   .hero-body .title, .hero-body .subtitle {
     font-family: 'Open Sans', sans-serif; }
   .hero-body .title.is-bold {
@@ -6930,8 +6930,7 @@ Responsive Styles
 ========================================================================== */
 @media (max-width: 767px) {
   .landing-caption {
-    text-align: center;
-    height: 2px; }
+    text-align: center; }
   .navbar-menu .is-static {
     position: absolute;
     width: 100%; }
