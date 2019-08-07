@@ -13,34 +13,6 @@
 	-webkit-text-fill-color: #c2f0ff;
 	font-style: oblique;
 }
-/*
-#project_1 {
-	background: url(../images/section_bg/zz.jpg);
-	background-attachment: fixed;
-	background-position: top center;
-	background-size: cover;    	
-}
-
-#project_2 {
-	background: url(../images/section_bg/sd.jpg);
-	background-attachment: fixed;
-	background-position: top center;
-	background-size: cover;    	
-}
-
-#project_3 {
-	background: url(../images/section_bg/sk.jpg);
-	background-attachment: fixed;
-	background-position: top center;
-	background-size: cover;    	
-}
-
-#project_4 {
-	background: url(../images/section_bg/mw.jpg);
-	background-attachment: fixed;
-	background-position: top center;
-	background-size: cover;    	
-}*/
 
 .hero.is-fullheight {
     opacity: 0.9;
@@ -50,19 +22,9 @@
     position: unset;
 }
 
-/*.img {
-	height: 135.57px !important;
-	max-height: 135.57px !important;
-	position: top center;
-
-	position: inherit;
-
-}*/
-
 .banners  {
 	margin: 10px;
 	opacity: 0.9;
-
 }
 
 .footer {

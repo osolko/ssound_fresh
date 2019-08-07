@@ -19,7 +19,7 @@ params:
     # Hero image (from static/images/___)
     image: /wave.png
     # Footer logos (from static/images/logos/clients/___.svg)
-    clientlogos:
+  #  clientlogos:
   #  - systek
   #  - tribe
   #  - kromo
@@ -83,5 +83,5 @@ params:
     #   icon: envelope
 
    
-    bulmalogo: false
+  #  bulmalogo: false
    
