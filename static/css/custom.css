@@ -6,12 +6,13 @@
 }
 
 .image img {
-    margin-top: 58px;
+    margin-top: 35px;
 }
 @media (max-width: 767px) {
 
    .image img {
     margin-top: -8px;
+    display:none;
 }
 }
 
