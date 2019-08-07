@@ -12,8 +12,10 @@
 	}
 }
 
+@media (min-width: 800px) {
 .landing-caption {
     margin-top: -300px;
+ 	}
  } 
 
 .image img {
