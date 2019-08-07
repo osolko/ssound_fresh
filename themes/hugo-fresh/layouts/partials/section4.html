@@ -16,7 +16,7 @@
 
 	  	<div class="column is-4 is-offset-3">
 			<figure class="section-image">
-	  			<img src="{{ printf "/images/%s" $image | relURL }}" alt="image"  style="height: 136px; width: 360px;">
+	  			<img class="lazy" data-src="{{ printf "/images/%s" $image | relURL }}" alt="image"  style="height: 136px; width: 360px;">
 			</figure>		 	
 	  	</div>
 	</div>
