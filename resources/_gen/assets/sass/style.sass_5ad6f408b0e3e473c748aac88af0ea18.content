@@ -6393,8 +6393,8 @@ img.pushed-image {
 Hero styles
 ========================================================================== */
 .hero-body {
-  padding-top: 3rem;
-  padding-bottom: 1rem;
+  padding-top: 9rem;
+  padding-bottom: 3rem;
   max-height: 500px; }
   .hero-body .title, .hero-body .subtitle {
     font-family: 'Open Sans', sans-serif; }
