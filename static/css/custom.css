@@ -11,8 +11,8 @@
 		background-attachment: fixed;
   		background-size: contain; 
   		overflow-y: scroll ;
-  	padding-top: 2rem;
-    padding-bottom: 1rem;
+/*  	padding-top: 1rem;
+*/    padding-bottom: 1rem;
     max-height: 300px;    
 	}
 }
@@ -22,7 +22,7 @@
 }
 @media (max-width: 767px) {
    .image img {
-    margin-top: 46px;
+    margin-top: 16px;
 	}
 }
 
