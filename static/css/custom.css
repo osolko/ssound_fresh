@@ -11,9 +11,9 @@
 		background-attachment: fixed;
   		background-size: contain; 
   		overflow-y: scroll ;
-  	padding-top: 16rem;
-    padding-bottom: 1rem;
-    max-height: 300px;    
+  	padding-top: 14rem;
+    	padding-bottom: 1rem;
+    	max-height: 300px;    
 	}
 }
 
