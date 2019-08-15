@@ -26,9 +26,9 @@
 	}
 }
 
-.section-image {
+/*.section-image {
 opacity: 0.7;
-}
+}*/
 @media (max-width: 767px) {
 .section-image {
 	display: none;
