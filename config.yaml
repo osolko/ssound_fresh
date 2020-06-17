@@ -80,7 +80,7 @@ params:
     - link: https://www.youtube.com/channel/UCuCA8ZHskv-oy2QYPAoU0Zg
       icon: youtube
     # - link: mailto:osolko@icloud.com
-    #   icon: envelope
+    #   icon: envelope 
 
    
   #  bulmalogo: false
