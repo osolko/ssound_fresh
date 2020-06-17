@@ -79,8 +79,8 @@ params:
       icon: soundcloud
     - link: https://www.youtube.com/channel/UCuCA8ZHskv-oy2QYPAoU0Zg
       icon: youtube
-    # - link: mailto:osolko@icloud.com
-    #   icon: envelope 
+    # - link: mailto: osolko@icloud.com
+    #   icon: envelope -
 
    
   #  bulmalogo: false
