@@ -15,7 +15,7 @@ params:
     # Main hero title
   #  title: Make your life more fragrant …
     # Hero subtitle (optional)
-    subtitle: Sound Designer & Composer
+    subtitle: a Sound Designer & Composer
     # Hero image (from static/images/___)
     image: /wave.png
     # Footer logos (from static/images/logos/clients/___.svg)
