@@ -53,7 +53,12 @@ params:
     subtitle: casual game project
     image: /section_bg/sk.jpg
 
-  section4:
+  section4: 
+    title: Puzzle Jewel
+    subtitle: casual game project
+    image: /section_bg/sk.jpg  
+
+  section5:
     title: Mark's Workshop
     subtitle: differents composing
     image: /section_bg/mw.jpg
