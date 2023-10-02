@@ -33,8 +33,10 @@ params:
     url: /#project_2
   - title: TheSudoku
     url: /#project_3
-  - title: Mark's Workshop
+  - title: Puzzle Jewel
     url: /#project_4
+  - title: Mark's Workshop
+    url: /#project_5
   - title: Contact 
     url: /#footer  
 
@@ -56,7 +58,7 @@ params:
   section4: 
     title: Puzzle Jewel
     subtitle: casual game project
-    image: /section_bg/sk.jpg  
+    image: /section_bg/jp.jpg  
 
   section5:
     title: Mark's Workshop
