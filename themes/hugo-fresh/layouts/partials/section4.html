@@ -1,0 +1,29 @@
+{{- $section3 := .Site.Params.section3 }}
+{{- $title    := index $section3 "title" }}
+{{- $subtitle := index $section3 "subtitle" }}
+{{- $image    := index $section3 "image" }}
+
+<section class="section section-feature-grey is-medium" id="project_3">
+
+  <div class="container">
+		
+	<div class="columns" >
+		<div class="column is-5 is-offset-0">
+	    	<h1 class="title section-title">{{ $title }}</h1>
+	    	<h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
+	    	<p class="divider"></p>
+	  	</div>
+
+	  	<div class="column is-4 is-offset-3">
+			<figure class="section-image">
+	  			<img class="lazy" data-src="{{ printf "/images/%s" $image | relURL }}" alt="image"  style="height: 136px; width: 360px;">
+			</figure>		 	
+	  	</div>
+	</div>
+
+    <div class="columns" >
+		{{ partial "puzzle_jewel.html" . }}
+ 	</div>
+	
+  </div>
+</section>
